@@ -1,3 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 body {
   box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(65, 65, 65);
+
+}
+
+.nav1,
+.nav2 {
+  display: none;
+}
+
+@media (width>755px) {
+  .menu {
+    display: none;
+  }
+
+  .header {
+    background-color: #fff;
+    border-top-right-radius: 30px;
+  }
+
+  .nav1,
+  .nav2 {
+    display: flex;
+  }
+
+  .container {
+    width: 90vw;
+    padding: 0 10vw;
+  }
+
+  .skew-box1,
+  .skew-box2 {
+    height: 30px;
+  }
+
+  .skew-box1 {
+    background-color: rgb(65, 65, 65);
+    position: relative;
+    left: -1%;
+    width: 51.5vw;
+    z-index: 2;
+    transform: skew(30deg);
+  }
+
+  .skew-box2 {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    right: 0;
+    width: 50.5vw;
+    z-index: 1;
+  }
+
+  .topnav {
+    position: absolute;
+    width: 90vw;
+    height: 30px;
+    margin: 0 auto;
+    right: 10vw;
+    z-index: 3;
+  }
+
+  .nav1 ul, .nav2 ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .nav1 ul {
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .nav1 ul li, .nav2 ul li {
+    list-style: none;
+    padding: 3px 15px 0 12px;
+  }
+
+  .nav1 a, .nav2 a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+  }
+
+  .nav2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .nav2 ul li {
+    padding: 0 17px;
+  }
+
+  .nav2 a {
+    color: rgb(17, 16, 16);
+  }
 }
