@@ -120,6 +120,16 @@ body {
     transform: scale(1.1);
   }
 
+  .nav1 ul .fb :hover {
+    transform: scale(1.1);
+    background-color: #1877f2;
+  }
+
+  .nav1 ul .twt :hover {
+    transform: scale(1.1);
+    background-color: #1d9bf0;
+  }
+
   .nav2 a {
     color: rgb(17, 16, 16);
   }
