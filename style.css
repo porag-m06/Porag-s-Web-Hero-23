@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-body {
+* {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
   padding: 0;
   margin: 0;
-  background-color: rgb(65, 65, 65);
+}
 
+:root {
+  --main-color-black: #5c5d5f;
+  --main-color-gray: #9b9595;
+  --main-color-orange: #ec5242;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(65, 65, 65);
+  /* overflow-x: hidden; */
 }
 
 .nav1,
@@ -98,13 +107,14 @@ body {
 .nav2 a:hover {
     text-decoration: none;
     font-weight: 700;
-    color: salmon;
+    color: var(--main-color-orange);
   }
 
   .nav2 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 0;
 
   }
 
@@ -135,12 +145,98 @@ body {
   }
 
   .Campaign {
-    border: 4px solid salmon;
+    border: 4px solid var(--main-color-orange);
     padding: 7px 3px;
     border-radius: 5px;
   }
 
   .nav2 .tab-active {
-    color: salmon;
+    color: var(--main-color-orange);
+  }
+
+  .hero {
+    background-image: url(./assets/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    position: relative;
+    z-index: -2;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.92);
+    z-index: -1;
+  }
+
+  .hero .a2 {
+    position: absolute;
+    top: 40vw;
+    left: 3vw;
+  }
+
+  .hero .a3 {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+  }
+
+  .hero .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-main {
+    margin-top: 6vw;
+    color: var(--main-color-orange);
+  } 
+
+  .text-main p {
+    font-size: 3.5vw;
+    padding-bottom: 4px;
+    font-weight: 400;
+  }
+
+  .text-main h1 {
+    font-size: 4vw;
+    font-weight: 700;
+    mix-blend-mode: normal;
+  }
+
+  .para {
+    border: 1px solid white;
+    padding: 25px;
+    width: 45vw;
+    margin: 15px 0 35px 0;
+    color: var(--main-color-black);
+  }
+
+  .para p {
+    font-size: 0.9vw;
+  }
+
+  .nextdate {
+    margin-bottom: 210px;
+  }
+
+  .nextdate h3 {
+    font-size: 45px;
+    padding: 5px 0;
+    font-weight: 700;
+    color: var(--main-color-black);
+  }
+
+  .nextdate h5 {
+    font-size: 30px;
+    color: var(--main-color-gray);
   }
 }
