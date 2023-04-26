@@ -24,6 +24,14 @@ body {
     border-top-right-radius: 30px;
   }
 
+  .logo {
+    margin: 5px 0 2px 0;
+  }
+
+  .logo:hover {
+    transform: scale(1.1);
+  }
+
   .nav1,
   .nav2 {
     display: flex;
@@ -87,6 +95,12 @@ body {
     color: white;
   }
 
+.nav2 a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    color: salmon;
+  }
+
   .nav2 .container {
     display: flex;
     align-items: center;
@@ -98,7 +112,25 @@ body {
     padding: 0 17px;
   }
 
+  .nav2 ul li:hover {
+    transform: scale(1.2);
+  }
+
+  .nav1 ul li:hover {
+    transform: scale(1.1);
+  }
+
   .nav2 a {
     color: rgb(17, 16, 16);
+  }
+
+  .Campaign {
+    border: 4px solid salmon;
+    padding: 7px 3px;
+    border-radius: 5px;
+  }
+
+  .nav2 .tab-active {
+    color: salmon;
   }
 }
