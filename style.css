@@ -120,7 +120,7 @@ body {
   }
 
   .nav2 ul li {
-    padding: 0 17px;
+    padding: 0 1vw;
   }
 
   .nav2 ul li:hover {
@@ -216,18 +216,18 @@ body {
 
   .para {
     border: 1px solid white;
-    padding: 25px;
+    padding: 1vw;
     width: 45vw;
     margin: 15px 0 35px 0;
     color: var(--main-color-black);
   }
 
   .para p {
-    font-size: 0.9vw;
+    font-size: 1vw;
   }
 
   .nextdate {
-    margin-bottom: 210px;
+    margin-bottom: 10vw;
   }
 
   .nextdate h3 {
