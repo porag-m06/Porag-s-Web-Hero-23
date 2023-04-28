@@ -118,6 +118,164 @@ body {
 }
 /* HERO MOBILE SECTION */
 
+/* OFFERED COURCES */
+.courses {
+  background-image: url(assets/main-offered-cources-m.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses h1 {
+  color: gainsboro;
+  font-size: 5vw;
+  padding-top: 6vw;
+  padding-bottom: 5px;
+}
+
+.courses .line {
+  border-top: 1px solid var(--main-color-orange);
+  width: 8vw;
+  margin-top: 1vw;
+  margin-bottom: 6vw;
+}
+
+.courses .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.courses .cards a {
+  text-decoration: none;
+}
+
+.courses .cards .cc {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2vw;
+  height: 20vw;
+  margin: 0 3vw;
+  padding-left: 5px;
+  background-color: rgba(122, 122, 122, 0.3);
+}
+
+.courses .cards .cc img {
+  width: 9vw;
+  padding: 2px;
+}
+
+.courses .cards .cc h2 {
+  color: var(--main-color-orange);
+  font-size: 4vw;
+  margin: 0 5px;
+}
+
+.courses .cards .cc p {
+  color: rgb(197, 197, 197);
+  font-weight: 400;
+  text-align: left;
+  font-size: 3vw;
+  padding: 2px 2px;
+  width: 55%;
+}
+
+.courses .full-list {
+  display: none;
+}
+
+.courses .join-list {
+  text-decoration: none;
+  color: white;
+  background-color: var(--main-color-orange);
+  height: 16vw;
+  margin: 30px;
+  padding: 0 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* OFFERED COURCES */
+
+/* FEATURED MENTORS */
+.mentors {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mentors h1 {
+  color: var(--main-color-black);
+  font-size: 5vw;
+  padding-top: 6vw;
+  padding-bottom: 5px;
+}
+
+.mentors .line {
+  border-top: 1px solid var(--main-color-orange);
+  width: 8vw;
+  margin-top: 1vw;
+  margin-bottom: 6vw;
+}
+
+.mtr-grid .container {
+  padding-right: 0;
+  padding-bottom: 10vw;
+}
+
+.mentor {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 0;
+
+}
+
+.mentor a {
+  text-decoration: none;
+  padding: 1vw;
+  display: flex;
+}
+
+.mentor a img {
+  width: 25vw;
+  height: auto;
+}
+
+.mtr-detail h3 {
+  color: rgb(70, 69, 69);
+  font-size: 4.2vw;
+}
+
+.mtr-detail h5 {
+  color: var(--main-color-orange);
+  font-size: x-small;
+  font-style: italic;
+}
+
+.mtr-detail .line {
+  border-color: rgb(219, 219, 219);
+  width: 3vw;
+  margin-bottom: .7vw;
+}
+
+.mtr-detail p {
+  color: var(--main-color-black);
+  font-size: x-small;
+}
+
+/* FEATURED MENTORS */
+
 @media (width>755px) {
 
   /* Navigation */
@@ -326,11 +484,6 @@ body {
     font-size: 1vw;
   }
 
-  .nextdate {
-    padding-bottom: 0;
-    margin-bottom: 10vw;
-  }
-
   .nextdate h3 {
     font-size: 2vw;
     padding: 5px 0;
@@ -341,6 +494,11 @@ body {
   .nextdate h5 {
     font-size: 1.3vw;
     color: var(--main-color-gray);
+  }
+
+  .nextdate {
+    padding-bottom: 0;
+    margin-bottom: 10vw;
   }
 
   /* Main Offered Cources */
@@ -372,6 +530,7 @@ body {
 
   .courses .cards {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 4px;
@@ -387,8 +546,10 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1vw;
-    width: 15vw;
-    height: 17vw;
+    width: 16.5vw;
+    height: 18.5vw;
+    padding: auto;
+    margin: 0;
     background-color: rgba(87, 86, 86, 0.4);
   }
 
@@ -399,6 +560,7 @@ body {
   .courses .cards .cc h2 {
     color: var(--main-color-orange);
     font-size: 2vw;
+    margin: 0;
   }
 
   .courses .cards .cc p {
@@ -407,13 +569,18 @@ body {
     text-align: center;
     font-size: 1.1vw;
     padding: 10px 15px;
+    width: 100%;
   }
 
   .courses .full-list {
+    display: block;
     padding: 4vw 0;
     font-size: 1.3vw;
     text-transform: uppercase;
     color: rgb(199, 199, 199);
+  }
+  .courses .join-list {
+    display: none;
   }
 
   /* Course Mentors */
@@ -454,6 +621,7 @@ body {
 
   .mentor a img {
     width: 9vw;
+    height: auto;
   }
 
   .mtr-detail h3 {
@@ -463,6 +631,7 @@ body {
 
   .mtr-detail h5 {
     color: var(--main-color-orange);
+    font-size: small;
   }
 
   .mtr-detail .line {
@@ -473,6 +642,7 @@ body {
 
   .mtr-detail p {
     color: var(--main-color-black);
+    font-size: small;
   }
 
   /* Partners */
