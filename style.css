@@ -543,53 +543,33 @@ body {
   /* Main Offered Cources */
   .courses {
     background-image: url(assets/main-offered-cources.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
   .courses h1 {
-    color: white;
     font-size: 2.7vw;
     padding-top: 4vw;
-    padding-bottom: 5px;
   }
 
   .courses .line {
-    border-top: 3px solid var(--main-color-orange);
+    border-width: 3px;
     width: 5vw;
     margin-top: 0.5vw;
     margin-bottom: 3vw;
   }
 
   .courses .cards {
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     gap: 4px;
   }
 
-  .courses .cards a {
-    text-decoration: none;
-  }
-
   .courses .cards .cc {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     gap: 1vw;
     width: 16.5vw;
     height: 18.5vw;
     padding: auto;
     margin: 0;
-    background-color: rgba(87, 86, 86, 0.4);
   }
 
   .courses .cards .cc img {
@@ -597,14 +577,11 @@ body {
   }
 
   .courses .cards .cc h2 {
-    color: var(--main-color-orange);
     font-size: 2vw;
     margin: 0;
   }
 
   .courses .cards .cc p {
-    color: rgb(197, 197, 197);
-    font-weight: 400;
     text-align: center;
     font-size: 1.1vw;
     padding: 10px 15px;
