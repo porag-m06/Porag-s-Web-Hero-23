@@ -344,11 +344,7 @@ body {
   display: none;
 }
 
-/* LICENSE */
-
 @media (width>755px) {
-
-  /* Navigation */
   .menu {
     display: none;
   }
@@ -672,20 +668,14 @@ body {
   /* License */
   .license {
     padding: 1vw 0;
-    background-color: white;
   }
 
   .license .container {
-    background-color: white;
-    display: flex;
-    align-items: center;
     justify-content: flex-start;
   }
 
   .license .container img {
     width: 30%;
-    padding: 20px;
-    align-items: center;
   }
 
   .license-info p {
@@ -695,6 +685,5 @@ body {
   .license .container .korian-lan {
     display: block;
   }
-
 
 }
