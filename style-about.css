@@ -38,7 +38,7 @@ body {
 }
 
 .softnav {
-    display: none;
+  display: none;
 }
 
 /* HERO MOBILE SECTION */
@@ -112,9 +112,9 @@ body {
 }
 
 .nextdate {
-    padding-bottom: 60px;
-    text-align: center;
-  }
+  padding-bottom: 60px;
+  text-align: center;
+}
 
 .nextdate p {
   font-size: 2.9vw;
@@ -151,62 +151,65 @@ body {
 }
 
 .mentors p {
-    font-size: 2.9vw;
-    padding: 5px 50px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: var(--main-color-black); 
+  font-size: 2.9vw;
+  padding: 5px 50px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--main-color-black);
 }
 
 .mentors img {
-    border: 1px solid rgb(237, 235, 235);
-    width: 90%;
-    margin-top: 5vw;
-    margin-bottom: 6vw;
+  border: 1px solid rgb(237, 235, 235);
+  width: 90%;
+  margin-top: 5vw;
+  margin-bottom: 6vw;
 }
+
 /* FEATURED MENTORS */
 
 /* PAST CAMPS */
 .past-camps {
-    background-color: white;
-    border-top: 1px solid rgb(237, 235, 235);
+  background-color: white;
+  border-top: 1px solid rgb(237, 235, 235);
 }
 
 .past-camps p {
-    padding-bottom: 6vw;
+  padding-bottom: 6vw;
 }
 
 .camps {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    padding: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
-.camp-card1, .camp-card2 {
-    border: 1px solid rgb(199, 196, 196);
-    display: flex;
-    width: 80vw;
-    height: 150px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(184, 2, 2, 0.5);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.camp-card1,
+.camp-card2 {
+  border: 1px solid rgb(199, 196, 196);
+  display: flex;
+  width: 80vw;
+  height: 150px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(184, 2, 2, 0.5);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .camp-card1 {
-    background-image: url(./assets/cards/about_2023.png);
+  background-image: url(./assets/cards/about_2023.png);
 }
 
 .camp-card2 {
-    background-image: url(./assets/cards/about_2021.png);
+  background-image: url(./assets/cards/about_2021.png);
 }
+
 /* PAST CAMPS */
 
 /* OUR PARTNERS */
@@ -248,6 +251,7 @@ body {
   padding: 0;
   width: 22vw;
 }
+
 /* OUR PARTNERS */
 
 /* LICENSE */
