@@ -286,7 +286,7 @@ body {
 }
 
 .partner h1 {
-  color: var(--main-color-black);
+  color: var(--main-color-gray);
   font-size: 5vw;
   padding-top: 6vw;
   padding-bottom: 5px;
@@ -648,24 +648,16 @@ body {
   }
 
   .partner h1 {
-    color: var(--main-color-gray);
     font-size: 2.7vw;
     padding-top: 4vw;
     padding-bottom: 5px;
   }
 
   .partner .line {
-    border-top: 3px solid var(--main-color-orange);
+    border-width: 3px;
     width: 5vw;
     margin-top: 0.5vw;
     margin-bottom: 2vw;
-  }
-
-  .partner .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
 
   .partner1,
@@ -675,12 +667,6 @@ body {
 
   .partner-all {
     display: block;
-  }
-
-  .partner .container img {
-    margin: 0;
-    padding: 0;
-    width: 90px;
   }
 
   /* License */
