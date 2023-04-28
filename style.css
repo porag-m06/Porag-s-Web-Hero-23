@@ -59,7 +59,7 @@ body {
 
 .hero .a2 {
   position: absolute;
-  bottom:1px;
+  bottom: 1px;
   left: 5px;
   width: 30px;
 }
@@ -67,7 +67,7 @@ body {
 .hero .a3 {
   position: absolute;
   top: -34px;
-  right:-29px;
+  right: -29px;
   width: 200px;
 }
 
@@ -116,6 +116,7 @@ body {
 .nextdate {
   padding-bottom: 60px;
 }
+
 /* HERO MOBILE SECTION */
 
 /* OFFERED COURCES */
@@ -204,6 +205,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 /* OFFERED COURCES */
 
 /* FEATURED MENTORS */
@@ -275,6 +277,76 @@ body {
 }
 
 /* FEATURED MENTORS */
+
+/* OUR PARTNERS */
+.partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 4vw;
+}
+
+.partner h1 {
+  color: var(--main-color-black);
+  font-size: 5vw;
+  padding-top: 6vw;
+  padding-bottom: 5px;
+}
+
+.partner .line {
+  border-top: 1px solid var(--main-color-orange);
+  width: 8vw;
+  margin-top: 1vw;
+  margin-bottom: 6vw;
+}
+
+.partner .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-all {
+  display: none;
+}
+
+.partner .container img {
+  margin: 0;
+  padding: 0;
+  width: 90px;
+}
+/* OUR PARTNERS */
+/* LICENSE */
+.license {
+  padding: 3vw 0;
+  background-color: white;
+}
+
+.license .container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+}
+
+.license .container img {
+  width: 50%;
+  padding: 20px;
+  align-items: center;
+}
+
+.license-info p {
+  font-size: x-small;
+}
+
+.license .container .korian-lan {
+  display: none;
+}
+
+/* LICENSE */
 
 @media (width>755px) {
 
@@ -579,6 +651,7 @@ body {
     text-transform: uppercase;
     color: rgb(199, 199, 199);
   }
+
   .courses .join-list {
     display: none;
   }
@@ -670,29 +743,51 @@ body {
 
   .partner .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+  }
+
+  .partner1,
+  .partner2 {
+    display: none;
+  }
+
+  .partner-all {
+    display: block;
   }
 
   .partner .container img {
     margin: 0;
     padding: 0;
     width: 90px;
-    
   }
 
   /* License */
   .license {
-    padding: 3vw 0;
+    padding: 1vw 0;
     background-color: white;
   }
+
   .license .container {
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+  }
 
+  .license .container img {
+    width: 30%;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .license-info p {
+    font-size: medium;
+  }
+
+  .license .container .korian-lan {
+    display: block;
   }
 
 
