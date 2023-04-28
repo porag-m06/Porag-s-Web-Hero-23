@@ -41,7 +41,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-
   position: relative;
   z-index: -2;
 }
@@ -374,7 +373,6 @@ body {
   }
 
   .container {
-    width: 90vw;
     padding: 0 10vw;
   }
 
@@ -487,34 +485,14 @@ body {
   /* Hero Section */
   .hero {
     background-image: url(./assets/bg1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-
-    position: relative;
-    z-index: -2;
-  }
-
-  .hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.9);
-    z-index: -1;
   }
 
   .hero .a2 {
-    position: absolute;
     top: 40vw;
     left: 3vw;
   }
 
   .hero .a3 {
-    position: absolute;
     top: 150px;
     right: 50px;
   }
@@ -529,27 +507,20 @@ body {
   .text-main {
     padding-top: 0;
     margin-top: 6vw;
-    color: var(--main-color-orange);
   }
 
   .text-main p {
     font-size: 3vw;
-    padding-bottom: 4px;
-    font-weight: 400;
   }
 
   .text-main h1 {
     font-size: 4vw;
-    font-weight: 700;
-    mix-blend-mode: normal;
   }
 
   .para {
-    border: 1px solid white;
     padding: 1vw;
     width: 45vw;
     margin: 15px 0 35px 0;
-    color: var(--main-color-black);
   }
 
   .para p {
@@ -558,14 +529,10 @@ body {
 
   .nextdate h3 {
     font-size: 2vw;
-    padding: 5px 0;
-    font-weight: 700;
-    color: var(--main-color-black);
   }
 
   .nextdate h5 {
     font-size: 1.3vw;
-    color: var(--main-color-gray);
   }
 
   .nextdate {
