@@ -19,41 +19,37 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 [Web Hero Developer Code Camp] <a name="about-project"></a>
 
-> This project **["Web Hero Fullstack Web Development Course Page"]** is a CAPSTONE project demonstrates the use of indepth HTML, CSS & JS development skills including all the dev. best practices. 
-The project includes a Home Page and an About page build for two different screen sizes.
+>This project **["Web Hero Fullstack Web Development Course Page"]** is a CAPSTONE project demonstrates the use of indepth HTML, CSS & JS development skills including all the dev. best practices. 
+
+>The project includes a Home Page and an About page build for two different screen sizes.
+
  - Mobile: up to 768px wide.
  - Desktop: 768px or wider.
 
-Links :
+>Links :
+
  - The home page to about page.
  - The logo in the header links to the home page.
 
-Mobile menu:
+>Mobile menu:
+
  - When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page provides proper navigation to different parts of the same or different page.
  - The mobile menu incudes a close (X) button that closes the menu.
 
-Dynamic page:
+>Dynamic page:
+
  - The section "Featured mentors" is created dynamically in JavaScript.
  - A JavaScript variable with the data about the mentors is used to create the HTML for this section dynamically on the page loads.
-
- Project Live Demo: 
- https://porag-m06.github.io/Porag-s-Web-Hero-23/index.html
 
  Please navigate to the presentation of this project here: 
  https://www.loom.com/share/94b9fb59f43643249c59440a20f0e6f4
@@ -87,19 +83,14 @@ Dynamic page:
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Conversion of a Design (e.g. Figma) to HTML/CSS]**
-- **[Responsive Web Design: Desktop & Mobile]**
-- **[Interactivity Using JS]**
+- **Conversion of a Design (e.g. Figma) to HTML/CSS**
+- **Responsive Web Design: Desktop & Mobile**
+- **Interactivity Using JS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -109,7 +100,6 @@ Dynamic page:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -122,14 +112,12 @@ In order to run this project you need:
 - An IDE (e.g. VS Code)
 - Browser to run. 
 
-
 ### Setup
 
 Clone this repository to your desired folder:
  - Using Git Bash or any integrated terminal of you choice.
  - Open with code editor (e.g. VS Code).
  - Open the index.html file using any local server (e.g. live server extension in VS Code)
-
 
 ### Usage
 
@@ -143,8 +131,6 @@ You can deploy this project using:
 https://porag-m06.github.io/Porag-s-Web-Hero-23/index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
 
@@ -165,8 +151,6 @@ Feel free to check the [issues page](https://github.com/porag-m06/Porag-s-Web-He
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
