@@ -60,13 +60,14 @@ body {
 
 .nav2 ul li a {
   text-decoration: none;
-  font-weight: 700; 
-  color: black; 
+  font-weight: 700;
+  color: black;
 }
 
 .nav2 ul li a:hover {
   color: var(--main-color-orange);
 }
+
 /* NAV MOBILE */
 
 .container {
@@ -552,7 +553,7 @@ body {
 
   .text-main {
     padding-top: 0;
-    margin-top: 185px;;
+    margin-top: 185px;
   }
 
   .text-main p {
