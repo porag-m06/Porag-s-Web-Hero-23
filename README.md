@@ -19,10 +19,14 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
@@ -124,6 +128,19 @@ Clone this repository to your desired folder:
 To run the project, execute the following command:
 - Open the index.html file on a local server on your browser. 
 
+### Run tests
+
+To run tests, run the following command:
+>For Stylelint run:
+- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+- npx stylelint "**/*.{css,scss}"   on the root of your directory of your project.
+Fix linter errors on the CLI.
+
+>For JSLint run:
+- npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+- npx eslint .    on the root of your directory of your project.
+Fix linter errors.
+
 ### Deployment
 
 You can deploy this project using:
@@ -142,6 +159,14 @@ https://porag-m06.github.io/Porag-s-Web-Hero-23/index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- **JS Interactions**
+- **Add Multiple Course Pages**
+- **Buy Course Functionality**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -152,9 +177,26 @@ Feel free to check the [issues page](https://github.com/porag-m06/Porag-s-Web-He
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## ⭐️ Show your support <a name="support"></a>
+
+As a tech enthusiast, your support is always appreciated. If you like this project please do let me know with your support in any way you see fit.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank  [Cindy Shin](https://www.behance.net/adagio07) the author of the [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), for the design used in this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I fork this project?**
+  - Yes, feel free to fork and knock yourself out :) . 
+
+- **Can I share this project with others?**
+  - Yes, you can share this project for any educational purposes. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
