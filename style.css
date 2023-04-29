@@ -363,6 +363,8 @@ body {
   .header {
     background-color: #fff;
     border-top-right-radius: 30px;
+    width: 100%;
+    position: fixed;
   }
 
   .logo {
@@ -511,7 +513,7 @@ body {
 
   .text-main {
     padding-top: 0;
-    margin-top: 6vw;
+    margin-top: 18vh;
   }
 
   .text-main p {

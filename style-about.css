@@ -72,15 +72,17 @@ body {
 
 .hero .a3 {
   position: absolute;
-  top: -34px;
-  right: -29px;
+  top: -29px;
+  right: -59px;
   width: 200px;
+  z-index: 0;
 }
 
 .text-main {
   padding-top: 22vw;
   text-align: center;
   color: var(--main-color-orange);
+  z-index: 2;
 }
 
 .text-main p {
@@ -93,6 +95,7 @@ body {
   font-family: 'cocogoose', sans-serif;
   font-size: 7vw;
   font-weight: 700;
+  z-index: 5;
 }
 
 .para {
@@ -114,6 +117,8 @@ body {
 .nextdate {
   padding-bottom: 60px;
   text-align: center;
+  margin: 5px 15px 0 30px;
+  padding-left: 20px;
 }
 
 .nextdate p {
@@ -141,6 +146,7 @@ body {
   font-size: 5vw;
   padding-top: 6vw;
   padding-bottom: 5px;
+  margin: 0 20vw;
 }
 
 .mentors .line {
@@ -152,10 +158,14 @@ body {
 
 .mentors p {
   font-size: 2.9vw;
-  padding: 5px 50px;
+  padding: 5px 70px;
   font-weight: 400;
   line-height: 1.6;
   color: var(--main-color-black);
+}
+
+.loremtxt {
+  display: none;
 }
 
 .mentors img {
@@ -191,8 +201,8 @@ body {
 .camp-card2 {
   border: 1px solid rgb(199, 196, 196);
   display: flex;
-  width: 80vw;
-  height: 150px;
+  width: 78vw;
+  height: 42vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -287,9 +297,29 @@ body {
     display: none;
   }
 
+  .softnav {
+    display: block;
+    position: fixed;
+    top: 113px;
+    right: 10vw;
+    padding-right: 5px;
+  }
+
+  .softnav a {
+    padding: 0 7px;
+    text-decoration: none;
+    color: #454545;
+  }
+
+  .softnav a i {
+    padding: 0 7px;
+  }
+
   .header {
     background-color: #fff;
     border-top-right-radius: 30px;
+    width: 100%;
+    position: fixed;
   }
 
   .logo {
@@ -365,6 +395,10 @@ body {
     color: white;
   }
 
+  .nav2 a {
+    color: rgb(17, 16, 16);
+  }
+
   .nav2 a:hover {
     text-decoration: none;
     font-weight: 700;
@@ -400,17 +434,13 @@ body {
     background-color: #1d9bf0;
   }
 
-  .nav2 a {
-    color: rgb(17, 16, 16);
-  }
-
   .Campaign {
     border: 4px solid var(--main-color-orange);
     padding: 7px 3px;
     border-radius: 5px;
   }
 
-  .nav2 .tab-active {
+  .header .tab-active a {
     color: var(--main-color-orange);
   }
 
@@ -434,15 +464,16 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .text-main {
     padding-top: 0;
-    margin-top: 6vw;
+    margin-top: 185px;
   }
 
   .text-main p {
-    font-size: 3vw;
+    display: none;
   }
 
   .text-main h1 {
@@ -451,7 +482,7 @@ body {
 
   .para {
     padding: 1vw;
-    width: 45vw;
+    width: 55vw;
     margin: 15px 0 35px 0;
   }
 
@@ -459,82 +490,22 @@ body {
     font-size: 1vw;
   }
 
-  .nextdate h3 {
-    font-size: 2vw;
-  }
-
-  .nextdate h5 {
-    font-size: 1.3vw;
-  }
-
   .nextdate {
     padding-bottom: 0;
     margin-bottom: 10vw;
   }
 
-  /* Main Offered Cources */
-  .courses {
-    background-image: url(assets/main-offered-cources.png);
-  }
-
-  .courses h1 {
-    font-size: 2.7vw;
-    padding-top: 4vw;
-  }
-
-  .courses .line {
-    border-width: 3px;
-    width: 5vw;
-    margin-top: 0.5vw;
-    margin-bottom: 3vw;
-  }
-
-  .courses .cards {
-    flex-direction: row;
-    gap: 4px;
-  }
-
-  .courses .cards .cc {
-    flex-direction: column;
-    justify-content: center;
-    gap: 1vw;
-    width: 16.5vw;
-    height: 18.5vw;
-    padding: auto;
-    margin: 0;
-  }
-
-  .courses .cards .cc img {
-    width: 4vw;
-  }
-
-  .courses .cards .cc h2 {
-    font-size: 2vw;
-    margin: 0;
-  }
-
-  .courses .cards .cc p {
-    text-align: center;
-    font-size: 1.1vw;
-    padding: 10px 15px;
-    width: 100%;
-  }
-
-  .courses .full-list {
-    display: block;
-    padding: 4vw 0;
-    font-size: 1.3vw;
-    text-transform: uppercase;
-    color: rgb(199, 199, 199);
-  }
-
-  .courses .join-list {
-    display: none;
+  .nextdate p {
+    font-size: 1.05vw;
+    padding: 5px 50px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--main-color-black);
   }
 
   /* Course Mentors */
   .mentors h1 {
-    font-size: 2.7vw;
+    font-size: 1.6vw;
     padding-top: 4vw;
   }
 
@@ -542,37 +513,40 @@ body {
     border-width: 3px;
     width: 5vw;
     margin-top: 0.5vw;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
   }
 
-  .mtr-grid .container {
-    padding-bottom: 6vw;
+  .mentors p {
+    font-size: 1vw;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
-  .mentor {
-    grid-template-columns: auto auto;
-    gap: 10px;
+  .loremtxt {
+    display: block;
+    margin-top: 0;
+    padding: 0 16vw !important;
   }
 
-  .mentor a img {
-    width: 9vw;
+  .mentors img {
+    border: 1px solid rgb(237, 235, 235);
+    width: 30%;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
   }
 
-  .mtr-detail h3 {
-    font-size: 2vw;
+  /* past camps */
+  .camps {
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 25px;
   }
 
-  .mtr-detail h5 {
-    font-size: small;
-  }
-
-  .mtr-detail .line {
-    width: 3vw;
-    margin-bottom: 0.7vw;
-  }
-
-  .mtr-detail p {
-    font-size: small;
+  .camp-card1,
+  .camp-card2 {
+    width: 25vw;
+    height: 13vw;
   }
 
   /* Partners */
