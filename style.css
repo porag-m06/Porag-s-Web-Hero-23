@@ -405,6 +405,10 @@ body {
     position: fixed;
   }
 
+  .nav2 .logo {
+    margin: 0;
+  }
+
   .logo {
     margin: 5px 0 2px 0;
   }
