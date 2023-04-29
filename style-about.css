@@ -31,16 +31,23 @@ body {
   display: none;
 }
 
-/* NAV MOBILE START*/
+/* NAV MOBILE START */
 
 .header .tab-active a {
-    color: var(--main-color-orange);
+  color: var(--main-color-orange);
 }
 
 .nav2 {
   position: fixed;
-  inset: 0 0 0 0%;
-  background-color: rgb(254, 250, 250);
+  inset: 0 0 0 0;
+  background: rgba(251, 251, 251, 0.75);
+  backdrop-filter: blur(5px);
+  transform: translateX(100%);
+  transition: transform 300ms ease-in;
+}
+
+.nav2[item-visibility="true"] {
+  transform: translateX(0%);
 }
 
 .nav2 .cancle {
@@ -71,13 +78,14 @@ body {
 
 .nav2 ul li a {
   text-decoration: none;
-  font-weight: 700; 
-  color: black; 
+  font-weight: 700;
+  color: black;
 }
 
 .nav2 ul li a:hover {
   color: var(--main-color-orange);
 }
+
 /* NAV MOBILE */
 
 .container {
@@ -349,6 +357,10 @@ body {
     display: none;
   }
 
+  .nav2[item-visibility="false"] {
+    transform: translateX(0%);
+  }
+
   .softnav {
     display: block;
     position: fixed;
@@ -455,7 +467,8 @@ body {
   .nav2 a {
     color: rgb(17, 16, 16);
   }
-/* 
+
+  /*
   .nav2 a:hover {
     text-decoration: none;
     font-weight: 700;
@@ -487,7 +500,6 @@ body {
     color: var(--main-color-orange);
     background-color: #fff;
   }
-
 
   .nav1 ul .fb :hover {
     transform: scale(1.1);
