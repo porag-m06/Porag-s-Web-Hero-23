@@ -56,7 +56,7 @@
  - A JavaScript variable with the data about the mentors is used to create the HTML for this section dynamically on the page loads.
 
  Please navigate to the presentation of this project here: 
- https://www.loom.com/share/94b9fb59f43643249c59440a20f0e6f4
+https://www.loom.com/share/476ba9f647b343c4ba22f0a0a91930a3
 
 
 
