@@ -334,6 +334,10 @@ body {
   padding-right: 0;
 }
 
+.license .container .img-for-black-bg {
+  display: none;
+}
+
 .license .container img {
   width: 50%;
   padding: 20px;
@@ -628,6 +632,7 @@ body {
 
   /* Partners */
   .partner {
+    display: none;
     padding-bottom: 4vw;
   }
 
@@ -659,11 +664,23 @@ body {
 
   /* License */
   .license {
+    background-color: var(--main-color-black);
     padding: 1vw 0;
   }
 
   .license .container {
     justify-content: flex-start;
+    background-color: var(--main-color-black);
+  }
+
+  .license .container .img-for-white-bg {
+    display: none;
+  }
+
+  .license .container .img-for-black-bg {
+    display: block;
+    margin: 0 100px;
+
   }
 
   .license .container img {
@@ -672,6 +689,7 @@ body {
 
   .license-info p {
     font-size: medium;
+    color: #fff;
   }
 
   .license .container .korian-lan {
