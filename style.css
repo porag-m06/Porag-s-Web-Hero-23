@@ -31,19 +31,25 @@ body {
   display: none;
 }
 
-/* NAV MOBILE */
+/* NAV MOBILE START*/
 .nav2 {
   position: fixed;
   inset: 0 0 0 0%;
   background-color: rgb(254, 250, 250);
 }
 
+.nav2 .cancle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .nav2 .logo {
-  margin: 25px;
+  margin: 45px;
 }
 
 .nav2 ul {
-  margin: 45px 65px;
+  margin: 45px 30px 45px 65px;
 }
 
 .nav2 ul li {
@@ -395,6 +401,10 @@ body {
 
 @media (width > 755px) {
   .menu {
+    display: none;
+  }
+
+  .nav2 .cancle {
     display: none;
   }
 
