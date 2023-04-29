@@ -8,8 +8,8 @@
 }
 
 :root {
-  --main-color-black: #5c5d5f;
-  --main-color-gray: #9b9595;
+  --main-color-black: #272a31;
+  --main-color-gray: #d3d3d3;
   --main-color-orange: #ec5242;
 }
 
@@ -191,7 +191,7 @@ body {
   justify-content: center;
 }
 
-.courses h1 {
+.courses h2 {
   color: gainsboro;
   font-size: 5vw;
   padding-top: 6vw;
@@ -276,7 +276,7 @@ body {
   flex-direction: column;
 }
 
-.mentors h1 {
+.mentors h2 {
   color: var(--main-color-black);
   font-size: 5vw;
   padding-top: 6vw;
@@ -345,7 +345,7 @@ body {
   padding-bottom: 4vw;
 }
 
-.partner h1 {
+.partner h2 {
   color: var(--main-color-gray);
   font-size: 5vw;
   padding-top: 6vw;
@@ -617,7 +617,7 @@ body {
     background-image: url(assets/main-offered-cources.png);
   }
 
-  .courses h1 {
+  .courses h2 {
     font-size: 2.7vw;
     padding-top: 4vw;
   }
@@ -673,7 +673,7 @@ body {
   }
 
   /* Course Mentors */
-  .mentors h1 {
+  .mentors h2 {
     font-size: 2.7vw;
     padding-top: 4vw;
   }
@@ -720,7 +720,7 @@ body {
     padding-bottom: 4vw;
   }
 
-  .partner h1 {
+  .partner h2 {
     font-size: 2.7vw;
     padding-top: 4vw;
     padding-bottom: 5px;
