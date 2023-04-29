@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="porag-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./assets/alogo/wdh0.svg" alt="logo" width="140"  height="auto" />
   <br/>
   <h3><b>Porag's Web Hero 23</b></h3>
   <h5>Fullstack web development course page<h5>
@@ -33,36 +33,57 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Web Hero Developer Code Camp] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This project **["Web Hero Fullstack Web Development Course Page"]** is a CAPSTONE project demonstrates the use of indepth HTML, CSS & JS development skills including all the dev. best practices. 
+The project includes a Home Page and an About page build for two different screen sizes.
+ - Mobile: up to 768px wide.
+ - Desktop: 768px or wider.
 
-**[your_project__name]** is a...
+Links :
+ - The home page to about page.
+ - The logo in the header links to the home page.
+
+Mobile menu:
+ - When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page provides proper navigation to different parts of the same or different page.
+ - The mobile menu incudes a close (X) button that closes the menu.
+
+Dynamic page:
+ - The section "Featured mentors" is created dynamically in JavaScript.
+ - A JavaScript variable with the data about the mentors is used to create the HTML for this section dynamically on the page loads.
+
+ Project Live Demo: 
+ https://porag-m06.github.io/Porag-s-Web-Hero-23/index.html
+
+ Please navigate to the presentation of this project here: 
+ https://www.loom.com/share/94b9fb59f43643249c59440a20f0e6f4
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li>Deployed Using GitHub Pages</li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>N/A</li>
   </ul>
 </details>
 
@@ -72,9 +93,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Conversion of a Design (e.g. Figma) to HTML/CSS]**
+- **[Responsive Web Design: Desktop & Mobile]**
+- **[Interactivity Using JS]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,9 +103,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Please follow the link for a live demo.
 
-- [Live Demo Link](https://google.com)
+- [Web Hero Code Camp](https://porag-m06.github.io/Porag-s-Web-Hero-23/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,99 +113,42 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+- Git.
+- An IDE (e.g. VS Code)
+- Browser to run. 
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
+ - Using Git Bash or any integrated terminal of you choice.
+ - Open with code editor (e.g. VS Code).
+ - Open the index.html file using any local server (e.g. live server extension in VS Code)
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+- Open the index.html file on a local server on your browser. 
 
 ### Deployment
 
 You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+- GitHub Pages for the main branch. A deployed version can be found here:
+https://porag-m06.github.io/Porag-s-Web-Hero-23/index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
+> Developed by: 
 
 - GitHub: [@porag-m06](https://github.com/porag-m06)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -192,71 +156,27 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/porag-m06/Porag-s-Web-Hero-23/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank  [Cindy Shin](https://www.behance.net/adagio07) the author of the [original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), for the design used in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
